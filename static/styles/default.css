@@ -1,7 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: lightblue;
 }
 
 h1 {
-  color: #000;
+  color: chocolate;
+}
+
+.flower-bed {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.flower {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  cursor: pointer;
 }
